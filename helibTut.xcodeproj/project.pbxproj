@@ -7,7 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ECCAE0F11E7A8B6D000D8110 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE0F01E7A8B6D000D8110 /* main.cpp */; };
+		ECCAE1921E7A9851000D8110 /* FHE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE1901E7A9851000D8110 /* FHE.cpp */; };
+		ECCAE1951E7A9884000D8110 /* DoubleCRT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE1931E7A9884000D8110 /* DoubleCRT.cpp */; };
+		ECCAE1981E7A98B4000D8110 /* NumbTh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE1961E7A98B4000D8110 /* NumbTh.cpp */; };
+		ECCAE19C1E7A98D1000D8110 /* IndexSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE19A1E7A98D1000D8110 /* IndexSet.cpp */; };
+		ECCAE1A01E7A9902000D8110 /* FHEContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE19E1E7A9902000D8110 /* FHEContext.cpp */; };
+		ECCAE1A31E7A990D000D8110 /* PAlgebra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE1A11E7A990D000D8110 /* PAlgebra.cpp */; };
+		ECCAE1A61E7A9919000D8110 /* CModulus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE1A41E7A9919000D8110 /* CModulus.cpp */; };
+		ECCAE1A91E7A9927000D8110 /* bluestein.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE1A71E7A9927000D8110 /* bluestein.cpp */; };
+		ECCAE1AC1E7A9933000D8110 /* timing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE1AA1E7A9933000D8110 /* timing.cpp */; };
+		ECCAE1B01E7A994D000D8110 /* recryption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE1AE1E7A994D000D8110 /* recryption.cpp */; };
+		ECCAE1B31E7A9958000D8110 /* EncryptedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE1B11E7A9958000D8110 /* EncryptedArray.cpp */; };
+		ECCAE1B61E7A9967000D8110 /* EvalMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE1B41E7A9967000D8110 /* EvalMap.cpp */; };
+		ECCAE1B91E7A997C000D8110 /* Ctxt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE1B71E7A997C000D8110 /* Ctxt.cpp */; };
+		ECCAE1BC1E7A9993000D8110 /* matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE1BA1E7A9993000D8110 /* matrix.cpp */; };
+		ECCAE1BF1E7A99A3000D8110 /* powerful.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE1BD1E7A99A3000D8110 /* powerful.cpp */; };
+		ECCAE1C21E7A99B2000D8110 /* hypercube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE1C01E7A99B2000D8110 /* hypercube.cpp */; };
+		ECCAE1C41E7A9A10000D8110 /* extractDigits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE1C31E7A9A10000D8110 /* extractDigits.cpp */; };
+		ECCAE1C71E7A9A26000D8110 /* polyEval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE1C51E7A9A26000D8110 /* polyEval.cpp */; };
+		ECCAE1C91E7A9A66000D8110 /* KeySwitching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE1C81E7A9A66000D8110 /* KeySwitching.cpp */; };
+		ECCAE1CC1E7A9A79000D8110 /* permutations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE1CA1E7A9A79000D8110 /* permutations.cpp */; };
+		ECCAE1CF1E7A9A87000D8110 /* matching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE1CD1E7A9A87000D8110 /* matching.cpp */; };
+		ECCAE1D11E7A9AD3000D8110 /* BenesNetwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE1D01E7A9AD3000D8110 /* BenesNetwork.cpp */; };
+		ECCAE1D51E7A9CB8000D8110 /* main1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECCAE0F01E7A8B6D000D8110 /* main1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +46,51 @@
 
 /* Begin PBXFileReference section */
 		ECCAE0ED1E7A8B6D000D8110 /* helibTut */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = helibTut; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECCAE0F01E7A8B6D000D8110 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ECCAE0F01E7A8B6D000D8110 /* main1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main1.cpp; sourceTree = "<group>"; };
+		ECCAE1901E7A9851000D8110 /* FHE.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FHE.cpp; sourceTree = "<group>"; };
+		ECCAE1911E7A9851000D8110 /* FHE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHE.h; sourceTree = "<group>"; };
+		ECCAE1931E7A9884000D8110 /* DoubleCRT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DoubleCRT.cpp; sourceTree = "<group>"; };
+		ECCAE1941E7A9884000D8110 /* DoubleCRT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleCRT.h; sourceTree = "<group>"; };
+		ECCAE1961E7A98B4000D8110 /* NumbTh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NumbTh.cpp; sourceTree = "<group>"; };
+		ECCAE1971E7A98B4000D8110 /* NumbTh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumbTh.h; sourceTree = "<group>"; };
+		ECCAE1991E7A98C3000D8110 /* IndexMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexMap.h; sourceTree = "<group>"; };
+		ECCAE19A1E7A98D1000D8110 /* IndexSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IndexSet.cpp; sourceTree = "<group>"; };
+		ECCAE19B1E7A98D1000D8110 /* IndexSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexSet.h; sourceTree = "<group>"; };
+		ECCAE19D1E7A98F3000D8110 /* cloned_ptr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cloned_ptr.h; sourceTree = "<group>"; };
+		ECCAE19E1E7A9902000D8110 /* FHEContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FHEContext.cpp; sourceTree = "<group>"; };
+		ECCAE19F1E7A9902000D8110 /* FHEContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHEContext.h; sourceTree = "<group>"; };
+		ECCAE1A11E7A990D000D8110 /* PAlgebra.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PAlgebra.cpp; sourceTree = "<group>"; };
+		ECCAE1A21E7A990D000D8110 /* PAlgebra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAlgebra.h; sourceTree = "<group>"; };
+		ECCAE1A41E7A9919000D8110 /* CModulus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CModulus.cpp; sourceTree = "<group>"; };
+		ECCAE1A51E7A9919000D8110 /* CModulus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CModulus.h; sourceTree = "<group>"; };
+		ECCAE1A71E7A9927000D8110 /* bluestein.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bluestein.cpp; sourceTree = "<group>"; };
+		ECCAE1A81E7A9927000D8110 /* bluestein.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bluestein.h; sourceTree = "<group>"; };
+		ECCAE1AA1E7A9933000D8110 /* timing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timing.cpp; sourceTree = "<group>"; };
+		ECCAE1AB1E7A9933000D8110 /* timing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timing.h; sourceTree = "<group>"; };
+		ECCAE1AD1E7A9942000D8110 /* multicore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multicore.h; sourceTree = "<group>"; };
+		ECCAE1AE1E7A994D000D8110 /* recryption.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = recryption.cpp; sourceTree = "<group>"; };
+		ECCAE1AF1E7A994D000D8110 /* recryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recryption.h; sourceTree = "<group>"; };
+		ECCAE1B11E7A9958000D8110 /* EncryptedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EncryptedArray.cpp; sourceTree = "<group>"; };
+		ECCAE1B21E7A9958000D8110 /* EncryptedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptedArray.h; sourceTree = "<group>"; };
+		ECCAE1B41E7A9967000D8110 /* EvalMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EvalMap.cpp; sourceTree = "<group>"; };
+		ECCAE1B51E7A9967000D8110 /* EvalMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvalMap.h; sourceTree = "<group>"; };
+		ECCAE1B71E7A997C000D8110 /* Ctxt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ctxt.cpp; sourceTree = "<group>"; };
+		ECCAE1B81E7A997C000D8110 /* Ctxt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ctxt.h; sourceTree = "<group>"; };
+		ECCAE1BA1E7A9993000D8110 /* matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = matrix.cpp; sourceTree = "<group>"; };
+		ECCAE1BB1E7A9993000D8110 /* matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
+		ECCAE1BD1E7A99A3000D8110 /* powerful.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = powerful.cpp; sourceTree = "<group>"; };
+		ECCAE1BE1E7A99A3000D8110 /* powerful.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = powerful.h; sourceTree = "<group>"; };
+		ECCAE1C01E7A99B2000D8110 /* hypercube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hypercube.cpp; sourceTree = "<group>"; };
+		ECCAE1C11E7A99B2000D8110 /* hypercube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hypercube.h; sourceTree = "<group>"; };
+		ECCAE1C31E7A9A10000D8110 /* extractDigits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = extractDigits.cpp; sourceTree = "<group>"; };
+		ECCAE1C51E7A9A26000D8110 /* polyEval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = polyEval.cpp; sourceTree = "<group>"; };
+		ECCAE1C61E7A9A26000D8110 /* polyEval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = polyEval.h; sourceTree = "<group>"; };
+		ECCAE1C81E7A9A66000D8110 /* KeySwitching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KeySwitching.cpp; sourceTree = "<group>"; };
+		ECCAE1CA1E7A9A79000D8110 /* permutations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = permutations.cpp; sourceTree = "<group>"; };
+		ECCAE1CB1E7A9A79000D8110 /* permutations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = permutations.h; sourceTree = "<group>"; };
+		ECCAE1CD1E7A9A87000D8110 /* matching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = matching.cpp; sourceTree = "<group>"; };
+		ECCAE1CE1E7A9A87000D8110 /* matching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matching.h; sourceTree = "<group>"; };
+		ECCAE1D01E7A9AD3000D8110 /* BenesNetwork.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BenesNetwork.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +123,51 @@
 		ECCAE0EF1E7A8B6D000D8110 /* helibTut */ = {
 			isa = PBXGroup;
 			children = (
-				ECCAE0F01E7A8B6D000D8110 /* main.cpp */,
+				ECCAE1D01E7A9AD3000D8110 /* BenesNetwork.cpp */,
+				ECCAE1CD1E7A9A87000D8110 /* matching.cpp */,
+				ECCAE1CE1E7A9A87000D8110 /* matching.h */,
+				ECCAE1CA1E7A9A79000D8110 /* permutations.cpp */,
+				ECCAE1CB1E7A9A79000D8110 /* permutations.h */,
+				ECCAE1C81E7A9A66000D8110 /* KeySwitching.cpp */,
+				ECCAE1C51E7A9A26000D8110 /* polyEval.cpp */,
+				ECCAE1C61E7A9A26000D8110 /* polyEval.h */,
+				ECCAE1C31E7A9A10000D8110 /* extractDigits.cpp */,
+				ECCAE1C01E7A99B2000D8110 /* hypercube.cpp */,
+				ECCAE1C11E7A99B2000D8110 /* hypercube.h */,
+				ECCAE1BD1E7A99A3000D8110 /* powerful.cpp */,
+				ECCAE1BE1E7A99A3000D8110 /* powerful.h */,
+				ECCAE1BA1E7A9993000D8110 /* matrix.cpp */,
+				ECCAE1BB1E7A9993000D8110 /* matrix.h */,
+				ECCAE1B71E7A997C000D8110 /* Ctxt.cpp */,
+				ECCAE1B81E7A997C000D8110 /* Ctxt.h */,
+				ECCAE1B41E7A9967000D8110 /* EvalMap.cpp */,
+				ECCAE1B51E7A9967000D8110 /* EvalMap.h */,
+				ECCAE1B11E7A9958000D8110 /* EncryptedArray.cpp */,
+				ECCAE1B21E7A9958000D8110 /* EncryptedArray.h */,
+				ECCAE1AE1E7A994D000D8110 /* recryption.cpp */,
+				ECCAE1AF1E7A994D000D8110 /* recryption.h */,
+				ECCAE1AD1E7A9942000D8110 /* multicore.h */,
+				ECCAE1AA1E7A9933000D8110 /* timing.cpp */,
+				ECCAE1AB1E7A9933000D8110 /* timing.h */,
+				ECCAE1A71E7A9927000D8110 /* bluestein.cpp */,
+				ECCAE1A81E7A9927000D8110 /* bluestein.h */,
+				ECCAE1A41E7A9919000D8110 /* CModulus.cpp */,
+				ECCAE1A51E7A9919000D8110 /* CModulus.h */,
+				ECCAE1A11E7A990D000D8110 /* PAlgebra.cpp */,
+				ECCAE1A21E7A990D000D8110 /* PAlgebra.h */,
+				ECCAE19E1E7A9902000D8110 /* FHEContext.cpp */,
+				ECCAE19F1E7A9902000D8110 /* FHEContext.h */,
+				ECCAE19D1E7A98F3000D8110 /* cloned_ptr.h */,
+				ECCAE19A1E7A98D1000D8110 /* IndexSet.cpp */,
+				ECCAE19B1E7A98D1000D8110 /* IndexSet.h */,
+				ECCAE1991E7A98C3000D8110 /* IndexMap.h */,
+				ECCAE1961E7A98B4000D8110 /* NumbTh.cpp */,
+				ECCAE1971E7A98B4000D8110 /* NumbTh.h */,
+				ECCAE1931E7A9884000D8110 /* DoubleCRT.cpp */,
+				ECCAE1941E7A9884000D8110 /* DoubleCRT.h */,
+				ECCAE1901E7A9851000D8110 /* FHE.cpp */,
+				ECCAE1911E7A9851000D8110 /* FHE.h */,
+				ECCAE0F01E7A8B6D000D8110 /* main1.cpp */,
 			);
 			path = helibTut;
 			sourceTree = "<group>";
@@ -119,7 +229,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECCAE0F11E7A8B6D000D8110 /* main.cpp in Sources */,
+				ECCAE1D51E7A9CB8000D8110 /* main1.cpp in Sources */,
+				ECCAE1C71E7A9A26000D8110 /* polyEval.cpp in Sources */,
+				ECCAE1C91E7A9A66000D8110 /* KeySwitching.cpp in Sources */,
+				ECCAE1BF1E7A99A3000D8110 /* powerful.cpp in Sources */,
+				ECCAE1CC1E7A9A79000D8110 /* permutations.cpp in Sources */,
+				ECCAE1A61E7A9919000D8110 /* CModulus.cpp in Sources */,
+				ECCAE1B01E7A994D000D8110 /* recryption.cpp in Sources */,
+				ECCAE1D11E7A9AD3000D8110 /* BenesNetwork.cpp in Sources */,
+				ECCAE1A01E7A9902000D8110 /* FHEContext.cpp in Sources */,
+				ECCAE1CF1E7A9A87000D8110 /* matching.cpp in Sources */,
+				ECCAE1C41E7A9A10000D8110 /* extractDigits.cpp in Sources */,
+				ECCAE1B91E7A997C000D8110 /* Ctxt.cpp in Sources */,
+				ECCAE1BC1E7A9993000D8110 /* matrix.cpp in Sources */,
+				ECCAE1B61E7A9967000D8110 /* EvalMap.cpp in Sources */,
+				ECCAE1AC1E7A9933000D8110 /* timing.cpp in Sources */,
+				ECCAE19C1E7A98D1000D8110 /* IndexSet.cpp in Sources */,
+				ECCAE1A31E7A990D000D8110 /* PAlgebra.cpp in Sources */,
+				ECCAE1981E7A98B4000D8110 /* NumbTh.cpp in Sources */,
+				ECCAE1B31E7A9958000D8110 /* EncryptedArray.cpp in Sources */,
+				ECCAE1C21E7A99B2000D8110 /* hypercube.cpp in Sources */,
+				ECCAE1951E7A9884000D8110 /* DoubleCRT.cpp in Sources */,
+				ECCAE1921E7A9851000D8110 /* FHE.cpp in Sources */,
+				ECCAE1A91E7A9927000D8110 /* bluestein.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +348,27 @@
 		ECCAE0F51E7A8B6D000D8110 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-g",
+					"-O2",
+					"-std=c++11",
+					"-pthread",
+					"-Wall",
+					"-DFHE_THREADS",
+					"-DFHE_DCRT_THREADS",
+					"-DFHE_BOOT_THREADS",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lgmp",
+					"-lntl",
+					"-lm",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -223,6 +376,27 @@
 		ECCAE0F61E7A8B6D000D8110 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-g",
+					"-O2",
+					"-std=c++11",
+					"-pthread",
+					"-Wall",
+					"-DFHE_THREADS",
+					"-DFHE_DCRT_THREADS",
+					"-DFHE_BOOT_THREADS",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lgmp",
+					"-lntl",
+					"-lm",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
